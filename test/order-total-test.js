@@ -12,4 +12,10 @@ describe('orderTotal', function () {
     assert(orderTotal(menuItems, ['something', 'somethingElse']), 300);
   });
 
+  it('it blows up if there is an item not on the menu', function () {
+    assert.throws(function () {
+      orderTotal(menuItems, ['notOnTheMenu']);
+    }, Error);
+  });
+
 });
