@@ -4,7 +4,8 @@
   "description": "A possible solution to Table XI's code challenge",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node index.js"
   },
   "author": "Steve Kinney",
   "license": "MIT",
