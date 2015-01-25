@@ -1,0 +1,14 @@
+{
+  "name": "xkcd-287",
+  "version": "0.0.1",
+  "description": "A possible solution to Table XI's code challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "author": "Steve Kinney",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "targetPrice": 1505,
+  "menItems": {
+    "mixed fruit": 215,
+    "french fries": 275,
+    "side salad": 335,
+    "hot wings": 355,
+    "mozzarella sticks": 420,
+    "sample plate": 580
+  }
+}
